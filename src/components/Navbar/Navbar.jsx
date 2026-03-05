@@ -92,6 +92,10 @@ const Navbar = () => {
           <a
             href="#"
             className="btn bg-[#422AD5] hover:bg-[#6D28D9]  text-white border-none btn-sm lg:btn-md"
+            style={{
+              background:
+                "linear-gradient(125.04deg, #632EE3 5.68%, #9F62F2 88.38%)",
+            }}
           >
             + New Ticket
           </a>

@@ -4,11 +4,12 @@ const Banner = ({ inProgress, resolvedTasks }) => {
   return (
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-6 lg:p-10 bg-gray-100 mt-10">
       <div className="relative overflow-hidden bg-linear-to-r from-[#6366F1] to-[#A855F7] rounded-xl p-10 text-white text-center shadow-lg">
-        <img
-          src="/vector1.png"
-          alt="pattern"
-          className="absolute inset-0 object-cover w-full h-full opacity-20"
-        />
+        <span className="absolute left-0 top-0 w-1/2 h-full">
+          <img src="/vector1.png" alt="pattern" />
+        </span>
+        <span className="absolute right-0 top-0 w-1/2 h-full">
+          <img src="/vector3.png" alt="pattern" />
+        </span>
 
         <div className="relative z-10">
           <h3 className="text-4xl font-medium mb-2">In Progress</h3>
@@ -17,12 +18,12 @@ const Banner = ({ inProgress, resolvedTasks }) => {
       </div>
 
       <div className="relative overflow-hidden bg-linear-to-r from-[#4ADE80] to-[#0D9488] rounded-xl p-10 text-white text-center shadow-lg">
-        <img
-          src="/vector1.png"
-          alt="pattern"
-          className="absolute inset-0 object-cover w-full h-full opacity-20"
-        />
-
+        <span className="absolute left-0 top-0 w-1/2 h-full">
+          <img src="/vector1.png" alt="pattern" />
+        </span>
+        <span className="absolute right-0 top-0 w-1/2 h-full">
+          <img src="/vector3.png" alt="pattern" />
+        </span>
         <div className="relative z-10 flex flex-col items-center">
           <h3 className="text-4xl font-medium mb-2">Resolved</h3>
           <p className="text-6xl font-bold">{resolvedTasks}</p>
