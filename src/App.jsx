@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Tickets from "./components/Tickets/Tickets";
 
 const ticketFetch = async () => {
   const res = await fetch("/data.json");
@@ -9,6 +10,8 @@ const ticketFetch = async () => {
 };
 
 function App() {
+  const ticketPromise = ticketFetch();
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
       <Navbar />
@@ -18,7 +21,9 @@ function App() {
           fallback={
             <span className="loading loading-spinner loading-xl"></span>
           }
-        ></Suspense>
+        >
+          <Tickets ticketPromise={ticketPromise} />
+        </Suspense>
       </main>
 
       <Footer />
