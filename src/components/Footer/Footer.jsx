@@ -54,7 +54,7 @@ const Footer = () => {
       </footer>
 
       <div className="border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-6 text-center text-xs text-gray-500">
+        <div className="max-w-7xl mx-auto px-6 py-6 text-center text-base text-gray-500">
           © 2026 CS — Ticket System. All rights reserved.
         </div>
       </div>

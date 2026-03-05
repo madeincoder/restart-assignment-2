@@ -31,7 +31,7 @@ const Tickets = ({ ticketPromise }) => {
   };
 
   return (
-    <div className="bg-[#F8FAFC]">
+    <div>
       <Banner
         inProgress={inProgress.length}
         resolvedTasks={resolvedTasks.length}

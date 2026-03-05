@@ -27,54 +27,72 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-100 p-2 shadow bg-white rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#">Home</a>
               </li>
               <li>
-                <a>FAQ</a>
+                <a href="#">FAQ</a>
               </li>
               <li>
-                <a>Changelog</a>
+                <a href="#">Changelog</a>
               </li>
               <li>
-                <a>Blog</a>
+                <a href="#">Blog</a>
               </li>
               <li>
-                <a>Download</a>
+                <a href="#">Download</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="#">Contact</a>
               </li>
             </ul>
           </div>
 
-          <a className="ml-2 lg:ml-0 text-xl lg:text-2xl font-bold text-gray-900 whitespace-nowrap">
+          <a
+            href="#"
+            className="ml-2 lg:ml-0 text-xl lg:text-2xl font-bold text-gray-900 whitespace-nowrap"
+          >
             CS — Ticket System
           </a>
         </div>
 
-        <div className="flex items-center gap-3">
-          <ul className="hidden lg:flex items-center gap-6 font-medium text-gray-700">
+        <div className="flex items-center gap-8">
+          <ul className="hidden lg:flex items-center gap-8 text-base font-normal text-gray-700">
             <li>
-              <a className="hover:text-black transition">Home</a>
+              <a href="#" className="hover:text-black transition">
+                Home
+              </a>
             </li>
             <li>
-              <a className="hover:text-black transition">FAQ</a>
+              <a href="#" className="hover:text-black transition">
+                FAQ
+              </a>
             </li>
             <li>
-              <a className="hover:text-black transition">Changelog</a>
+              <a href="#" className="hover:text-black transition">
+                Changelog
+              </a>
             </li>
             <li>
-              <a className="hover:text-black transition">Blog</a>
+              <a href="#" className="hover:text-black transition">
+                Blog
+              </a>
             </li>
             <li>
-              <a className="hover:text-black transition">Download</a>
+              <a href="#" className="hover:text-black transition">
+                Download
+              </a>
             </li>
             <li>
-              <a className="hover:text-black transition">Contact</a>
+              <a href="#" className="hover:text-black transition">
+                Contact
+              </a>
             </li>
           </ul>
 
-          <a className="btn bg-[#422AD5] hover:bg-[#6D28D9]  text-white border-none btn-sm lg:btn-md">
+          <a
+            href="#"
+            className="btn bg-[#422AD5] hover:bg-[#6D28D9]  text-white border-none btn-sm lg:btn-md"
+          >
             + New Ticket
           </a>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
 
-const Banner = ({ inProgress , resolvedTasks }) => {
+const Banner = ({ inProgress, resolvedTasks }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 lg:p-10 bg-gray-100 mt-10">
+    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-6 lg:p-10 bg-gray-100 mt-10">
       <div className="relative overflow-hidden bg-linear-to-r from-[#6366F1] to-[#A855F7] rounded-xl p-10 text-white text-center shadow-lg">
         <img
           src="/vector1.png"
