@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 const ticketFetch = async () => {
   const res = await fetch("/data.json");
@@ -19,6 +20,8 @@ function App() {
           }
         ></Suspense>
       </main>
+
+      <Footer />
     </div>
   );
 }
