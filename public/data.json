@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Cannot Reset Password via Email Link",
+    "description": "Customer reports that the password reset link sent to email is expired immediately and does not allow them to set a new password.",
+    "customer": "James Mitchell",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024/12/21"
+  },
+  {
+    "id": 1002,
+    "title": "Double Charged for Single Order",
+    "description": "Customer was charged twice for the same order but only one transaction appears in the order history.",
+    "customer": "Sarah Thompson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024/12/22"
+  },
+  {
+    "id": 1003,
+    "title": "Profile Photo Not Uploading",
+    "description": "Customer attempts to upload a profile photo but it spins indefinitely and never saves the new image.",
+    "customer": "David Nguyen",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024/12/23"
+  },
+  {
+    "id": 1004,
+    "title": "Cart Items Disappearing After Login",
+    "description": "Customer adds items to cart while browsing, but all items are removed once they log into their account.",
+    "customer": "Emily Carter",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024/12/24"
+  },
+  {
+    "id": 1005,
+    "title": "Refund Not Processed After 7 Days",
+    "description": "Customer returned an item over 7 days ago and has not received the refund despite receiving a return confirmation email.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024/12/25"
+  },
+  {
+    "id": 1006,
+    "title": "Order Confirmation Email Going to Spam",
+    "description": "Customer reports that all transactional emails including order confirmations are being delivered to the spam folder.",
+    "customer": "Laura Wilson",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024/12/26"
+  },
+  {
+    "id": 1007,
+    "title": "Promo Code Not Applying at Checkout",
+    "description": "Customer enters a valid promo code at checkout but receives an invalid code error and no discount is applied.",
+    "customer": "Robert Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024/12/27"
+  },
+  {
+    "id": 1008,
+    "title": "Product Images Not Loading on Mobile",
+    "description": "Customer reports that all product images appear broken on mobile devices while they load fine on desktop.",
+    "customer": "Olivia Martinez",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024/12/28"
+  },
+  {
+    "id": 1009,
+    "title": "Account Locked After Single Wrong Password",
+    "description": "Customer entered the wrong password once and their account was immediately locked, not allowing any further login attempts.",
+    "customer": "Daniel Lee",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024/12/29"
+  },
+  {
+    "id": 1010,
+    "title": "Search Results Showing Irrelevant Products",
+    "description": "Customer searches for specific product names but results show completely unrelated items with no way to filter accurately.",
+    "customer": "Jessica Hall",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2024/12/30"
+  },
+  {
+    "id": 1011,
+    "title": "Address Not Saving During Checkout",
+    "description": "Customer fills in their shipping address at checkout but the form resets after clicking continue, forcing them to re-enter details repeatedly.",
+    "customer": "Chris Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024/12/31"
+  },
+  {
+    "id": 1012,
+    "title": "Live Chat Support Not Responding",
+    "description": "Customer initiated a live chat session and waited over 30 minutes with no agent joining the conversation.",
+    "customer": "Amanda White",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025/01/01"
+  }
+]
